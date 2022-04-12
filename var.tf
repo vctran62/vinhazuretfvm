@@ -23,7 +23,7 @@ variable "tenantId" {}
 
 variable "vmSize" {
   description = "Specifies the size of the virtual machine."
-  default     = "Standard_D1_v2"
+  default     = "Standard_F1s"
 }
 
 variable "admin_username" {
