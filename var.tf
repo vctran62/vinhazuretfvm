@@ -1,18 +1,18 @@
 #File =var.tf
 variable "prefix" {
   description = "The prefix which should be used for all resources in this example"
-  default     = "mytesttf"
+  default     = "vtran"
 }
 
 variable "region" {
   description = "The Azure Region in which all resources in this example should be created"
-   default     = "uksouth"
+  default     = "eastus"
 }
 
 
 variable "resourceGroup" {
   description = "The Azure Region in which all resources in this example should be created"
-   default     = "myrgtestman"
+   default     = "VinhRG4Demo"
 }
 
 
