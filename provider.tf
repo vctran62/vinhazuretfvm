@@ -6,4 +6,3 @@ provider "azurerm" {
   tenant_id       = "${var.tenantId}"
   features {}
 }
-}
